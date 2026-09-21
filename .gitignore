@@ -1,0 +1,45 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e chaves
+.env
+.env.local
+.env.production
+.env.development
+
+# Arquivos temporários da IA
+.claude/
+.cursor/
+.cursor-tmp/
+.ai/
+.cache/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+
+# Build e compilação
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Banco local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/settings.json
+.idea/
+
+# gstack local
+.gstack/
+.mcp.json
